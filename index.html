@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#070d10" />
+  <meta name="description" content="Портфолио AI-assisted инженера: Beerloga, WorKingEU и VPN simple-dimple. Linux, Docker, Telegram, PostgreSQL и разработка с ИИ-агентами." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="AI Infrastructure · DevOps · Portfolio" />
+  <meta property="og:description" content="Три продукта: Beerloga, WorKingEU и VPN simple-dimple. Разработка, автоматизация и инфраструктура." />
+  <title>Portfolio — AI Infrastructure & Automation</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="config.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Перейти к содержанию</a>
+  <div class="ambient ambient-one" aria-hidden="true"></div><div class="ambient ambient-two" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="На главную">
+        <span class="brand-mark" id="brand-mark">N<span class="brand-dot">.</span></span>
+        <span class="brand-caption">PORTFOLIO<span class="brand-caption-suffix"> / ENGINEERING</span></span>
+      </a>
+      <nav class="primary-nav" aria-label="Главная навигация">
+        <a href="#projects" data-i18n="navProjects">Проекты</a>
+        <a href="#approach" data-i18n="navApproach">Подход</a>
+        <a href="#stack" data-i18n="navStack">Технологии</a>
+      </nav>
+      <div class="header-actions">
+        <div class="lang-switch" role="group" aria-label="Язык / Language">
+          <button class="lang-btn active" type="button" data-lang="ru" aria-pressed="true">RU</button>
+          <button class="lang-btn" type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <a class="header-contact" href="#contact"><span data-i18n="navContact">На связи</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero container" id="top">
+      <div class="hero-content">
+        <div class="eyebrow"><span class="live-pulse" aria-hidden="true"></span><span data-i18n="heroEyebrow">AI-ASSISTED ENGINEERING / DEVOPS</span></div>
+        <h1><span data-i18n="heroLine1">Из идеи —</span><br/><span class="text-accent" data-i18n="heroLine2">в работающую</span><br/><span data-i18n="heroLine3">систему.</span></h1>
+        <p class="hero-lead" data-i18n="heroLead">Разрабатываю цифровые продукты, автоматизации и инфраструктурные решения. Использую ИИ-агентов как инструмент, а за архитектуру, проверки и итоговый результат отвечаю сам.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects"><span data-i18n="ctaProjects">Смотреть проекты</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+          <a class="button button-outline" href="#approach"><span data-i18n="ctaApproach">Как я работаю</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+        </div>
+        <div class="hero-facts">
+          <div class="fact"><strong>03</strong><span data-i18n="factProjects">выбранных проекта</span></div>
+          <span class="fact-divider"></span>
+          <div class="fact"><strong>SSH / Linux</strong><span data-i18n="factInfra">инфраструктурная практика</span></div>
+          <span class="fact-divider"></span>
+          <div class="fact"><strong>AI + QA</strong><span data-i18n="factAgents">агенты и проверка</span></div>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Схематичная визуализация процесса разработки">
+        <div class="visual-orbit orbit-a"></div><div class="visual-orbit orbit-b"></div>
+        <div class="float-tag tag-top"><span class="tiny-dot"></span> <span>BUILD WITH AGENTS</span></div>
+        <div class="terminal-window">
+          <div class="terminal-title"><div class="window-buttons"><i></i><i></i><i></i></div><span>~/workspace/portfolio</span><span class="terminal-chevrons">⌘</span></div>
+          <div class="terminal-body">
+            <div class="terminal-command"><span class="shell-symbol">➜</span> <span class="cmd-purple">~/projects</span> <span>codex</span> <span class="muted">--task ship</span></div>
+            <div class="terminal-gap"></div>
+            <p class="t-comment">// development workflow</p>
+            <p><span class="t-green">✔</span> <span data-i18n="terminalPlan">Сформулировать задачу</span></p>
+            <p><span class="t-green">✔</span> <span data-i18n="terminalBuild">Реализовать через агента</span></p>
+            <p><span class="t-green">✔</span> <span data-i18n="terminalReview">Проверить код и тесты</span></p>
+            <p><span class="t-green">✔</span> <span data-i18n="terminalDeploy">Подготовить к развёртыванию</span></p>
+            <div class="terminal-rule"></div>
+            <p class="terminal-out">STATUS <span class="green-status">● <span data-i18n="terminalStatus">verified</span></span></p>
+            <p class="terminal-next"><span class="shell-symbol">➜</span> <span class="blink-cursor" aria-hidden="true"></span></p>
+          </div>
+        </div>
+        <div class="float-tag tag-bottom"><span class="tag-check">✓</span> HUMAN IN CONTROL</div>
+        <div class="visual-caption">ENGINEERING WITH AI / 2026</div>
+      </div>
+    </section>
+
+    <section class="selected-projects section-shell" id="projects">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <div><span class="section-number">01 / SELECTED WORK</span><h2 data-i18n="projectsTitle">Три проекта.<br/><span>Три разные задачи.</span></h2></div>
+          <p data-i18n="projectsLead">От цифровой витрины бизнеса до автоматизации рекрутинга и VPN-инфраструктуры. Только проекты, над которыми я работаю.</p>
+        </div>
+        <article class="project project-beerloga" data-reveal>
+          <div class="project-body">
+            <div class="project-topline"><span class="project-index">01 / 03</span><span class="project-status"><span class="status-dot"></span><span data-i18n="beerStatus">Демо доступно</span></span></div>
+            <div class="project-main"><div class="project-category" data-i18n="beerCategory">WEB PLATFORM / BUSINESS</div><h3>Beerloga<span class="project-title-dot">.</span></h3><p class="project-description" data-i18n="beerDesc">Цифровое присутствие магазина: современная витрина, продуманный пользовательский сценарий и база для дальнейших онлайн-сервисов.</p></div>
+            <div class="project-foot"><div class="chip-list"><span>Web</span><span>UX/UI</span><span>Git</span><span>Vercel</span><span>AI-assisted</span></div><a class="project-link" href="https://client-beer.vercel.app/" target="_blank" rel="noopener noreferrer"><span data-i18n="openDemo">Открыть демо</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></svg></a></div>
+          </div>
+          <div class="project-art art-real-screenshot" role="img" aria-label="Реальный скриншот интерфейса Beerloga из GitHub-проекта">
+            <div class="project-art-label">BEERLOGA / HOME SCREEN</div>
+            <img class="real-project-shot" src="assets/beerloga-home-github.png" alt="Реальный скриншот домашней страницы Beerloga после возрастного экрана" />
+            <span class="screenshot-badge">GITHUB / HOME</span>
+          </div>
+        </article>
+
+        <article class="project project-working" data-reveal>
+          <div class="project-body">
+            <div class="project-topline"><span class="project-index">02 / 03</span><span class="project-status project-status-soft" data-i18n="workStatus">Проектная разработка</span></div>
+            <div class="project-main"><div class="project-category" data-i18n="workCategory">TELEGRAM MINI APP / HR TECH</div><h3>WorKing<span class="project-title-accent">EU</span></h3><p class="project-description" data-i18n="workDesc">Платформа для автоматизации рекрутинга: вакансии, кандидаты, роли рекрутера и администратора, структурированные данные и рабочие процессы.</p></div>
+            <div class="project-foot"><div class="chip-list"><span>Telegram</span><span>Node.js</span><span>PostgreSQL</span><span>API</span></div><span class="project-note" data-i18n="workNote">Кейс / архитектура продукта</span></div>
+          </div>
+          <div class="project-art art-real-screenshot" role="img" aria-label="Реальный скриншот WorKingEU из GitHub-проекта">
+            <div class="project-art-label">WORKINGEU / MOBILE SCREEN</div>
+            <img class="real-project-shot" src="assets/workingeu-mobile-github.png" alt="Реальный мобильный скриншот landing-страницы WorKingEU" />
+            <span class="screenshot-badge">GITHUB / MOBILE</span>
+          </div>
+        </article>
+
+        <article class="project project-vpn" data-reveal>
+          <div class="project-body">
+            <div class="project-topline"><span class="project-index">03 / 03</span><span class="project-status project-status-soft" data-i18n="vpnStatus">Разработка архитектуры</span></div>
+            <div class="project-main"><div class="project-category" data-i18n="vpnCategory">NETWORKING / INFRASTRUCTURE</div><h3>simple<span class="project-title-accent">-dimple</span></h3><p class="project-description" data-i18n="vpnDesc">Проект VPN-сервиса с управлением подключениями и серверной инфраструктурой. Фокус на архитектуре, автоматизации развёртывания и контроле доступов.</p></div>
+            <div class="project-foot"><div class="chip-list"><span>Linux</span><span>Docker</span><span>Xray</span><span>VLESS</span><span>REALITY</span></div><span class="project-note" data-i18n="vpnNote">Кейс / инфраструктура</span></div>
+          </div>
+          <div class="project-art art-real-screenshot" role="img" aria-label="Реальный скриншот simple-dimple из GitHub-проекта">
+            <div class="project-art-label">SIMPLE-DIMPLE / MOBILE SCREEN</div>
+            <img class="real-project-shot" src="assets/simple-dimple-mobile-github.png" alt="Реальный мобильный экран VPN-клиента simple-dimple" />
+            <span class="screenshot-badge">GITHUB / MOBILE</span>
+          </div>
+        </article>
+        <p class="visual-disclaimer" data-i18n="visualDisclaimer">Все три проекта показаны мобильными экранами из GitHub-работ. simple-dimple снят в dev-сборке без запущенного backend.</p>
+      </div>
+    </section>
+
+    <section class="approach-section container" id="approach">
+      <div class="section-heading section-heading-narrow" data-reveal><div><span class="section-number">02 / HOW I WORK</span><h2 data-i18n="approachTitle">Агент ускоряет.<br/><span>Инженер отвечает.</span></h2></div></div>
+      <p class="approach-intro" data-reveal data-i18n="approachIntro">Мне близок подход, в котором ИИ пишет часть кода и помогает с рутиной, но решения об архитектуре, данных, доступах и качестве остаются за человеком.</p>
+      <div class="process-grid" data-reveal>
+        <div class="process-item"><span class="process-step">01</span><div class="process-icon">⌗</div><h3 data-i18n="processTitle1">Задача</h3><p data-i18n="processDesc1">Контекст, ограничения, ожидаемый результат и критерии приёмки.</p></div>
+        <div class="process-item"><span class="process-step">02</span><div class="process-icon">⌘</div><h3 data-i18n="processTitle2">Агент</h3><p data-i18n="processDesc2">Codex помогает реализовывать решения и разбирать существующий код.</p></div>
+        <div class="process-item"><span class="process-step">03</span><div class="process-icon">✓</div><h3 data-i18n="processTitle3">Проверка</h3><p data-i18n="processDesc3">Ревью изменений, тесты, сборка и проверка важных сценариев.</p></div>
+        <div class="process-item"><span class="process-step">04</span><div class="process-icon">↗</div><h3 data-i18n="processTitle4">Результат</h3><p data-i18n="processDesc4">Развёртывание, наблюдение за работой и улучшения по обратной связи.</p></div>
+      </div>
+      <div class="ops-strip" data-reveal>
+        <div class="ops-item"><span class="ops-icon">$</span><div><strong>Linux / SSH</strong><p data-i18n="opsLinux">Управление серверной инфраструктурой через терминал и практическая работа с командами Linux.</p></div></div>
+        <div class="ops-item"><span class="ops-icon">✓</span><div><strong>Git / CI / QA</strong><p data-i18n="opsGit">Контроль изменений, автоматизированные проверки и внимание к качеству результата работы агента.</p></div></div>
+        <div class="ops-item"><span class="ops-icon">◎</span><div><strong>Data / Security</strong><p data-i18n="opsData">Работа с данными и API; углубляю навыки в контроле доступов, бэкапах и устойчивости систем.</p></div></div>
+      </div>
+    </section>
+
+    <section class="stack-section section-shell" id="stack">
+      <div class="container stack-layout"><div data-reveal><span class="section-number">03 / TOOLBOX</span><h2 data-i18n="stackTitle">Мой рабочий<br/><span>инструментарий.</span></h2><p class="stack-lead" data-i18n="stackIntro">Инструменты, с которыми работаю, и области, в которых продолжаю наращивать практику. Без искусственных уровней «эксперт по всему».</p></div>
+      <div class="stack-groups" data-reveal>
+        <div class="stack-group"><div class="stack-group-heading"><span>01</span><h3 data-i18n="stackGroup1">Инфраструктура</h3></div><div class="chip-list stack-chips"><span>Linux</span><span>SSH</span><span>Docker</span><span>Docker Compose</span><span>Git</span><span>CI/CD</span><span>Bash</span></div></div>
+        <div class="stack-group"><div class="stack-group-heading"><span>02</span><h3 data-i18n="stackGroup2">Разработка и данные</h3></div><div class="chip-list stack-chips"><span>Node.js</span><span>Fastify</span><span>PostgreSQL</span><span>Prisma</span><span>Supabase</span><span>REST API</span></div></div>
+        <div class="stack-group"><div class="stack-group-heading"><span>03</span><h3 data-i18n="stackGroup3">AI и автоматизация</h3></div><div class="chip-list stack-chips"><span>Codex</span><span>AI Agents</span><span>LLM APIs</span><span>Telegram Bot API</span><span>GitHub Actions</span><span>Python (basic)</span></div></div>
+        <div class="stack-group stack-learning"><div class="stack-group-heading"><span>↗</span><h3 data-i18n="stackGroup4">Углубляю практику</h3></div><div class="chip-list stack-chips"><span>Prometheus</span><span>Grafana</span><span>Ansible</span><span>Terraform</span><span>Backups / restore</span><span>Security</span></div></div>
+      </div></div>
+    </section>
+
+    <section class="contact-section container" id="contact">
+      <div class="contact-panel" data-reveal>
+        <div><span class="section-number">04 / CONTACT</span><h2 data-i18n="contactTitle">Давайте создавать<br/><span>полезные системы.</span></h2><p data-i18n="contactText">Интересны проекты на стыке инфраструктуры, AI-агентов и автоматизации реальных бизнес-процессов.</p></div>
+        <div class="contact-right"><div class="contact-graphic" aria-hidden="true"><span>↗</span></div><div id="contact-links" class="contact-links"></div><p id="contact-fallback" class="contact-fallback" data-i18n="contactFallback">Для связи используйте площадку, на которой размещено резюме. Контактные ссылки можно добавить в config.js.</p></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer container"><div><span class="footer-mark" id="footer-mark">N.</span><span data-i18n="footerLine">Продукты. Инфраструктура. Проверяемый результат.</span></div><div class="footer-right"><span id="footer-year">2026</span><span class="footer-separator">/</span><span>BUILT WITHOUT TRACKERS</span><a href="#top" class="back-top" aria-label="Наверх">↑</a></div></footer>
+</body>
+</html>
