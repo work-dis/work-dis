@@ -1,25 +1,69 @@
-# AI Infrastructure / DevOps — portfolio
+# AI Infrastructure / DevOps Portfolio
 
-A responsive static portfolio, focused on the engineering experience most relevant to an AI-native infrastructure role. Includes only three selected projects:
+A focused portfolio of digital products, automation workflows, and infrastructure work. The site is intentionally small: it presents three projects with real mobile UI captures and concise notes about the engineering context behind them.
 
-- **Beerloga** — business storefront, [live demo](https://client-beer.vercel.app/)
-- **WorKingEU** — Telegram Mini App / recruitment workflows, project development
-- **VPN simple-dimple** — VPN infrastructure architecture, Xray/VLESS
+## Selected projects
 
-## Before publishing
+### Beerloga
 
-1. Edit `config.js`: set `displayName`, `github`, `telegram`, `email`. Empty links are not shown. **Never put secrets in this file.**
-2. Verify the exact current implementation and status of each project; descriptions are intentionally conservative and architecture views are labeled as concepts.
-3. Edit the technology chips in `index.html` if a listed technology has not been used in the specified project. Add verified repository URLs if public.
-4. Open `index.html` locally in a browser to preview.
+A live digital storefront for a retail brand.
 
-## Publish for free on GitHub Pages
+- Product: [client-beer](https://github.com/work-dis/client-beer)
+- Demo: [client-beer.vercel.app](https://client-beer.vercel.app/)
+- Focus: responsive product presentation, storefront UX, Git-based delivery, and Vercel deployment
+- Capture: the home screen after the age gate
 
-1. Create a **public** repository named `YOUR_USERNAME.github.io` (replace with your GitHub login).
-2. Upload *all* files from this folder (including `.nojekyll`, `index.html`, `styles.css`, `app.js`, `config.js`, `assets/`) to the repository root.
-3. Go to **Settings → Pages → Build and deployment → Deploy from a branch → main → / (root) → Save**.
-4. Open `https://YOUR_USERNAME.github.io/` after the Pages deployment succeeds.
+### WorKingEU
 
-Alternative: publish this folder in any public repository as a project site; the link will be `https://YOUR_USERNAME.github.io/REPO_NAME/`.
+A recruitment workflow built around a public vacancy catalog and Telegram onboarding.
 
-No Node dependencies, build step or secrets required. Language toggle RU / EN is client-side. Project cards use real mobile captures from the local clones of `https://github.com/work-dis/client-beer`, `https://github.com/work-dis/hr-pro-bot`, and `https://github.com/work-dis/simple-dimple`. Beerloga uses the home screen after the age gate; simple-dimple is labeled as a dev capture because its backend was not running during capture.
+- Product: [hr-pro-bot](https://github.com/work-dis/hr-pro-bot)
+- Focus: vacancy discovery, candidate onboarding, Telegram flows, PostgreSQL-backed data, and admin operations
+- Capture: the responsive mobile landing page
+
+### simple-dimple
+
+A mobile-first VPN client and supporting infrastructure project.
+
+- Product: [simple-dimple](https://github.com/work-dis/simple-dimple)
+- Focus: Linux, Docker, Xray/VLESS, server selection, account flows, and deployment-oriented architecture
+- Capture: the mobile client screen from the development build
+
+> The simple-dimple capture was taken without the backend running, so the visible API error is kept and labeled honestly. It reflects the real development state rather than an invented mockup.
+
+## What this repository demonstrates
+
+- Translating product requirements into a clear, responsive interface
+- Working across frontend, backend, Telegram workflows, APIs, and infrastructure
+- Using Git, QA checks, and deployment workflows as part of delivery
+- Using AI agents to accelerate implementation while keeping architecture, security, validation, and final decisions human-owned
+- Communicating project scope and maturity without overstating production readiness
+
+## Repository structure
+
+```text
+index.html    Portfolio markup and content
+styles.css    Responsive visual system and layout
+app.js        RU / EN language toggle and contact-link rendering
+config.js     Public profile settings; no secrets
+assets/       Favicon and verified project screenshots
+```
+
+## Run locally
+
+No build step or package installation is required:
+
+```bash
+python3 -m http.server 4173
+```
+
+Then open <http://127.0.0.1:4173/>.
+
+The portfolio is plain HTML, CSS, and JavaScript, so it can be deployed directly from the repository root with GitHub Pages or any static hosting provider.
+
+## Notes
+
+- Contact links are configured in `config.js`; empty values stay hidden.
+- Do not put passwords, tokens, private IPs, or API keys in this repository.
+- Project screenshots are real mobile captures from the corresponding project work; they are not generated concept art.
+
