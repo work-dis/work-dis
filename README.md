@@ -49,17 +49,9 @@ config.js     Public profile settings; no secrets
 assets/       Favicon and verified project screenshots
 ```
 
-## Run locally
+## Publication
 
-No build step or package installation is required:
-
-```bash
-python3 -m http.server 4173
-```
-
-Then open <http://127.0.0.1:4173/>.
-
-The portfolio is plain HTML, CSS, and JavaScript, so it can be deployed directly from the repository root with GitHub Pages or any static hosting provider.
+This is a static GitHub Pages portfolio. It has no build step, package installation, or runtime dependencies: GitHub Pages serves the repository root directly.
 
 ## Notes
 
