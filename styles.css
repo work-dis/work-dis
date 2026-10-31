@@ -55,15 +55,17 @@
 /* Match desktop typography to the taller mobile screenshot showcases. */
 @media(min-width:881px){
   .project h3{
-    font-size:clamp(48px,5vw,64px);
-    margin:16px 0 24px;
+    font-size:clamp(44px,5.8vw,76px);
+    margin:20px 0 28px;
   }
   .project-description{
-    font-size:18px;
-    line-height:1.7;
+    font-size:22px;
+    line-height:1.6;
     max-width:48ch;
     color:var(--sub);
   }
-  .project-category{font-size:12px}
-  .project-index,.project-status,.project-link,.project-note{font-size:12px}
+  .project-category{font-size:13px}
+  .project-index,.project-status{font-size:12px}
+  .project-link,.project-note{font-size:14px}
+  .project .chip-list span{font-size:12px;padding:11px 12px}
 }
