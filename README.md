@@ -1,6 +1,15 @@
 # AI Infrastructure / DevOps Portfolio
 
-A focused portfolio of digital products, automation workflows, and infrastructure work. The site is intentionally small: it presents three projects with real mobile UI captures and concise notes about the engineering context behind them.
+A focused portfolio for AI-native operations: digital products, automation workflows, Linux-oriented infrastructure, and the engineering discipline around agents. The site presents three projects with real mobile UI captures and concise notes about the work behind them.
+
+## Why this portfolio is relevant
+
+The target role combines Linux servers, Docker, PostgreSQL, Telegram automations, security-minded access decisions, backups, reliable deployments, and practical work with AI agents. This portfolio is built around that intersection:
+
+- agents are used to accelerate implementation, but a human owns architecture, data, permissions, testing, and release decisions;
+- the projects span a live product, a Telegram recruitment workflow, and a mobile-first VPN client;
+- the site keeps project status and limitations explicit instead of presenting concepts as production proof;
+- the next areas I am deliberately deepening are observability, backup/recovery routines, least-privilege operations, and agent tooling such as project instructions, skills, hooks, and MCP integrations.
 
 ## Selected projects
 
