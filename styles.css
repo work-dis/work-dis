@@ -19,3 +19,35 @@
 .ops-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:18px}.ops-item{border:1px solid #273b39;background:#0e181a;padding:21px 22px;border-radius:10px;display:flex;align-items:start;gap:16px}.ops-icon{font:700 18px ui-monospace,monospace;color:var(--accent);line-height:1.2}.ops-item strong{font-size:12px;letter-spacing:.025em}.ops-item p{margin:7px 0 0;color:#8ca19b;font-size:11px;line-height:1.75}@media(max-width:880px){.ops-strip{grid-template-columns:1fr;gap:10px}}
 .art-real-screenshot{min-height:520px}
 @media(max-width:570px){.art-real-screenshot{min-height:460px}}
+
+/* Real project screenshots: keep the label, image and source badge visually separate. */
+.art-real-screenshot{
+  min-height:0;
+  height:auto;
+  padding:32px;
+  flex-direction:column;
+  align-items:center;
+  justify-content:flex-start;
+  gap:0;
+}
+.art-real-screenshot .project-art-label{
+  position:static;
+  top:auto;
+  left:auto;
+  align-self:flex-start;
+  margin:0 0 48px;
+}
+.art-real-screenshot .real-project-shot{
+  width:min(100%,320px);
+  max-width:320px;
+  height:auto;
+  max-height:none;
+  margin:0 0 32px;
+}
+.art-real-screenshot .screenshot-badge{
+  position:static;
+  right:auto;
+  bottom:auto;
+  align-self:flex-end;
+  margin:0;
+}
